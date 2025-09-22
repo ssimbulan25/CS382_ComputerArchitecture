@@ -1,0 +1,7 @@
+.text
+.global _start
+_start:         //starting point
+    MOV X0, 0   //move 0 to X0
+    MOV X8, 93  //move 93 to X8
+    SVC 0       //System call 0
+.data
